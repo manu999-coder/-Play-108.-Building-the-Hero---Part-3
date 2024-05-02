@@ -1,1 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*by default 1rem=16px, so we want 1rem=10px 
+   1rem=10px
+    so 10/16*100 = 62.5%*/
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 700;
+  color: #555;
+}
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  gap: 9.6rem;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.heading-primary {
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.btn-left:link,
+.btn-left:visited {
+  background-color: #e67e22;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.btn-left:hover,
+.btn-left:active {
+  background-color: #cf711f;
+}
+.btn-right:link,
+.btn-right:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.btn-right:hover,
+.btn-right:active {
+  background-color: #fdf2e9;
+  color: #555;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-right {
+  margin-right: 1.6rem !important;
+}
+
+.delievered-meals {
+  display: flex;
+}
+
+.delieverd-img {
+  display: flex;
+}
+
+.delieverd-img img {
+  height: 6.4rem;
+  width: 6.4rem;
+}
 
